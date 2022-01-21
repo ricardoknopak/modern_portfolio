@@ -8,19 +8,24 @@
 		<meta name="keywords" content="web developer programação desenvolvimento sistemas fullstack" />
 		<script src="https://kit.fontawesome.com/c92ec6165d.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/doodlecss/doodle.css" />
 		<link rel="stylesheet" href="assets/css/scrollbar.css">
 	</head>
-	<body class="is-preload">
-
+	<body class="doodle">
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+			body {
+				font-family: 'Short Stack', cursive;
+			}
+		</style>
 		<!-- Wrapper -->
 			<div id="wrapper" class="scroll-container">
-
 				<!-- Intro -->
-					<section class="intro">
+					<section>
 						<header>
 							<h1>Ricardo Knopak</h1>
 							<p>Desenvolvedor de Sistemas<br/>Web Developer <br/><a href="tel:41997710872">(41) 99771.0872</a> <br/><a href="mailto:eu@ricardok.com.br">eu@ricardok.com.br</a></p>
-							<ul class="actions">
+							<ul>
 								<li>
 									<div class="tooltip">
 										<a href="#" class="button primary large tooltip">Projetos</a>
@@ -35,7 +40,6 @@
 							<div class="overlay"></div>
 						</div>
 					</section>
-
 				<!-- First -->
 					<section id="first">
 						<header>
@@ -54,7 +58,6 @@
 							<span class="image main"><img src="images/photo.webp" alt="" /></span>
 						</div>
 					</section>
-
 				<!-- Section -->
 					<section>
 						<header>
@@ -72,33 +75,32 @@
 							</ul>
 						</div>
 					</section>
-
 				<!-- Section -->
 					<section id="contatos">
 						<header>
 							<h2>Mande uma Mensagem</h2>
 						</header>
-						<div class="content">
+						<div>
 							<p><strong>Me envie uma</strong> mensagem para tirar alguma dúvida, pedir uma informações ou connhecer melhor meu trabalho. Será um prazer respondê-lo</p>
 							<form data-netlify="true">
-								<div class="fields">
-									<div class="field half">
+								<div>
+									<p>
 										<input type="text" name="name" id="name" placeholder="Nome" />
-									</div>
-									<div class="field half">
+									</p>
+									<p>
 										<input type="email" name="email" id="email" placeholder="Email" />
-									</div>
-									<div class="field">
+									</p>
+									<p>
 										<textarea name="message" id="message" placeholder="Mensagem" rows="7"></textarea>
-									</div>
+									</p>
 								</div>
-								<ul class="actions">
+								<ul>
 									<li><input type="submit" value="Enviar" class="button primary" /></li>
 								</ul>
 							</form>
 						</div>
 						<footer>
-							<ul class="items">
+							<ul>
 								<li>
 									<h3>Email</h3>
 									<a href="#">eu@ricardok.com.br</a>
@@ -109,7 +111,7 @@
 								</li>
 								<li>
 									<h3>Redes</h3>
-									<ul class="icons">
+									<ul>
 										<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 										<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
@@ -118,15 +120,6 @@
 							</ul>
 						</footer>
 					</section>
-
 			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
 	</body>
 </html>
