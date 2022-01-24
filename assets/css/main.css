@@ -1,6 +1,38 @@
+body {
+  font-size: 1.2rem;
+}
+
 #wrapper {
   margin: 20px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
+/* ----- ----- ----- Início NavBar ----- ----- ----- */
+.navbar {
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+nav .nav-left {
+  display: flex;
+  align-items: center;
+  font-size: 1.7rem;
+}
+
+nav .nav-right {
+  display: flex;
+  align-content: center;
+}
+
+nav a {
+  margin: 0.6rem 1rem;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+/* ----- ----- ----- Fim NavBar ----- ----- ----- */
